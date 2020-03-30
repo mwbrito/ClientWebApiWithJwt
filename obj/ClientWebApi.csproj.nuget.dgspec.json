@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\GIT\\ClientWebApi\\ClientWebApi.csproj": {}
+    "d:\\Projetos\\GIT\\ClientWebApi\\ClientWebApi.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\GIT\\ClientWebApi\\ClientWebApi.csproj": {
+    "d:\\Projetos\\GIT\\ClientWebApi\\ClientWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\GIT\\ClientWebApi\\ClientWebApi.csproj",
+        "projectUniqueName": "d:\\Projetos\\GIT\\ClientWebApi\\ClientWebApi.csproj",
         "projectName": "ClientWebApi",
-        "projectPath": "D:\\Projetos\\GIT\\ClientWebApi\\ClientWebApi.csproj",
+        "projectPath": "d:\\Projetos\\GIT\\ClientWebApi\\ClientWebApi.csproj",
         "packagesPath": "C:\\Users\\mwbrito\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\GIT\\ClientWebApi\\obj\\",
+        "outputPath": "d:\\Projetos\\GIT\\ClientWebApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\mwbrito\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -53,6 +56,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -61,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
